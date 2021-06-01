@@ -214,8 +214,8 @@
     
     <!--Google Sheets-->
 <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbzhYwI1gsSANwB-nUie9HO6K-extjzF_TlUJMzAgVaXh0y87Yk-/exec'
-            const form = document.forms['google-sheet']
+            const formData = 'multipart/form-data'
+            const form = document.forms['netlify']
           
             form.addEventListener('submit', e => {
               e.preventDefault()
