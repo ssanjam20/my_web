@@ -38,7 +38,7 @@ $(function () {
 mediumPromise.then(function()
             {
                 //Pagination
-                pageSize = 4;
+                pageSize = 1;
 
                 var pageCount = $(".card").length / pageSize;
 
@@ -54,7 +54,7 @@ mediumPromise.then(function()
                     });
                 }
 
-                showPage(4);
+                showPage(1);
 
                 $("#pagin li").click(function () {
                     $("#pagin li").removeClass("active");
